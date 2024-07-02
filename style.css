@@ -1,0 +1,51 @@
+body {
+  margin: 0px;
+  background-image: url("images/room-interior-architecture-space-indoor-concept.jpg");
+  background-size: cover;
+}
+
+.container {
+  background-color: white;
+  min-height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.input-area input {
+  width: 40rem;
+  margin-right: 5px;
+  border: 1px solid lightsalmon;
+}
+.input-area input:focus {
+  outline: none;
+}
+.input-area button {
+  background-color: lightsalmon;
+  border: none;
+}
+
+.task-area {
+  border: 1px solid lightgray;
+  margin-top: 1em;
+}
+.task-tabs {
+  display: flex;
+  border-bottom: 1px solid lightgray;
+}
+#under-line {
+  height: 4px;
+  background-color: rgb(53, 205, 50);
+  position: absolute;
+  width: 55px;
+  top: 155px;
+  left: 100px;
+  padding: 0px;
+}
+.task-tabs div {
+  padding: 1em;
+}
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  border-bottom: 1px solid lightgray;
+}

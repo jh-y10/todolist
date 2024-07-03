@@ -49,3 +49,22 @@ body {
   padding: 1em;
   border-bottom: 1px solid lightgray;
 }
+.task-complete {
+  text-decoration: line-through;
+}
+.task-button {
+  margin-right: 50px;
+  font-size: 1.5em;
+}
+.check-button {
+  color: rgb(0, 200, 7);
+}
+.delete-button {
+  color: rgb(214, 0, 0);
+}
+.return-button {
+  color: rgb(100, 100, 100);
+}
+.task-item-complete {
+  background-color: lightgray;
+}
